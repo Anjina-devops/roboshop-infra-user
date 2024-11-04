@@ -27,3 +27,21 @@ output "database_subnet_ids" {
   value = local.database_subnet_ids
 
 }
+output "allow_all_security_group_id" {
+
+  value = local.allow_all_security_group_id
+
+}
+
+output "ami_id" {
+
+  value = data.aws_ami.devops_ami.id
+
+}
+
+output "ips" {
+
+  value = local.ips
+
+}
+
