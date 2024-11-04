@@ -33,15 +33,15 @@ output "allow_all_security_group_id" {
 
 }
 
-output "ami_id" {
+# output "ami_id" {
 
-  value = data.aws_ami.devops_ami.id
+#   value = data.aws_ami.devops_ami.id
 
-}
+# }
 
-output "ips" {
+# output "ips" {
 
-  value = local.ips
+#   value = local.ips
 
-}
+# }
 
